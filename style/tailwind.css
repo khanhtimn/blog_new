@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+@import "tailwindcss";
+@plugin "@iconify/tailwind4";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+    themes: cuppycake;
+}
+@plugin "daisyui/theme" {
+    name: "cuppycake";
+    default: true;
+    prefersdark: false;
+    color-scheme: "light";
+
+    /* Base colors */
+    --color-base-100: #f2f0e3;
+    --color-base-200: #e7e5d9;
+    --color-base-300: #dcdacf;
+    --color-base-content: #6c6b66;
+
+    /* Primary colors */
+    --color-primary: #9b9a92;
+    --color-primary-content: #f2f0e3;
+
+    /* Secondary colors */
+    --color-secondary: #9b9a92;
+    --color-secondary-content: #f2f0e350;
+
+    /* Accent colors */
+    --color-accent: #f76f53;
+    --color-accent-content: #6c6b66;
+
+    /* Neutral colors */
+    --color-neutral: #7c7b75;
+    --color-neutral-content: #f2f0e3;
+
+    /* Semantic colors */
+    --color-info: #d1d0c4;
+    --color-info-content: #6c6b66;
+    --color-success: #dcdacf;
+    --color-success-content: #6c6b66;
+    --color-warning: #e7e5d9;
+    --color-warning-content: #6c6b66;
+    --color-error: #8c8b84;
+    --color-error-content: #f2f0e3;
+
+    --radius-selector: 1rem;
+    --radius-field: 2rem;
+    --radius-box: 1rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 2px;
+    --depth: 1;
+    --noise: 0;
+}
